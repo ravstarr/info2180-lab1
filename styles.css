@@ -1,13 +1,44 @@
-h1 {
-    font-size: 24px;
-    color: #38B2AC;
+/* Add your CSS styles here */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    color: #212529;
+}
+
+header {
+    background-color: #63B3ED;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: #2B6CB0;
 }
 
 h2 {
-    font-size: 21px;
-    color: #5A67D8;
+    margin-top: 30px;
+    border-bottom: 1px solid #E2E8F0;
+    padding-bottom: 10px;
 }
 
-p {
-    font-size: 18px;
+footer {
+    background-color: #2C5282;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
